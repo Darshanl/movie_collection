@@ -1,0 +1,12 @@
+.close{
+    opacity: 1 !important;
+    background-color: rgb(218, 42, 42) !important;
+}
+
+.outline-secondary{
+    border-radius: 0;
+}
+
+.bg-filter{
+    background: linear-gradient(to right, rgba(21, 59, 85, 0.5), rgba(26, 67, 94, 0.5));
+}
