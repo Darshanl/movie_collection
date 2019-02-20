@@ -1,7 +1,7 @@
 import React from 'react';
 import MovieCard from './MovieCard';
 
-const MovieList = ({movies}) => {
+const MovieList = ({movies,onViewClick}) => {
     return(
         <div className="container col-12 text-center">
             {
@@ -13,6 +13,8 @@ const MovieList = ({movies}) => {
                                 Poster={movie.Poster}
                                 Type={movie.Type}
                                 Year={movie.Year}
+                                imdbID={movie.imdbID}
+                                onViewClick={onViewClick}
                                 />
                         </div>
                     )
